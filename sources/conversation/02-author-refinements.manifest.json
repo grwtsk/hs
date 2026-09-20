@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "source_id": "HS-U02-U11",
+  "path": "sources/conversation/02-author-refinements.md",
+  "index_path": "sources/conversation/02-author-refinements.index.tsv",
+  "sha256": "3d1b7ee54732baa3afe2f97eaac22b914362ce50739dad7479b7b75b7e1e3847",
+  "byte_length": 5529,
+  "encoding": "utf-8",
+  "line_endings": "LF",
+  "final_newline": false,
+  "source_role": "issue_copy_author_text_with_editorial_heading_wrappers",
+  "capture_role": "agent_transcription_of_issue_and_comment_copies",
+  "authority_effect": "none",
+  "captured_at": "2026-09-20T23:14:25Z",
+  "provenance": [
+    {
+      "turns": [
+        "HS-U02",
+        "HS-U03",
+        "HS-U04",
+        "HS-U05",
+        "HS-U06",
+        "HS-U07",
+        "HS-U08",
+        "HS-U09"
+      ],
+      "url": "https://github.com/grwtsk/hs/issues/3",
+      "issue_updated_at": "2026-09-20T22:10:55Z",
+      "method": "Transcribed the consecutive U02--U09 heading/payload sections from the GitHub connector reading; excluded deliverable and completion wrappers."
+    },
+    {
+      "turns": [
+        "HS-U10",
+        "HS-U11"
+      ],
+      "url": "https://github.com/grwtsk/hs/issues/3#issuecomment-5753037599",
+      "comment_updated_at": "2026-09-20T22:10:55Z",
+      "method": "Transcribed each quoted author paragraph; removed only its leading blockquote marker (> plus space); changed editorial heading level from ### to ## for the compiled archive."
+    }
+  ],
+  "assembly": "Join the ten sections with two LF bytes; retain paragraph wording, punctuation and internal spaces from the issue copies; no EOF newline. Heading wrappers are editorial metadata, not words attributed to the author.",
+  "limits": [
+    "Agent textual comparison to issue/comment copies, not an independent automated comparison to raw original-message bytes.",
+    "The available conversation display ends the U09 commission with two periods; the issue copy has one. This file preserves the issue copy, not a silently corrected original transport. Trailing transport whitespace is not certified.",
+    "Connector account identity and archive hashes do not independently authenticate human authorship, adoption or consent.",
+    "This freezes the U02--U11 source corpus; later execution commands and this turn's narrow merge authorization are separate operational records, not new philosophical instructions."
+  ],
+  "founding_reference": {
+    "source_id": "HS-U01",
+    "commit": "e315936780064d2d154fe96117c6f248253fc126",
+    "merged_at_commit": "75086b56ac49c3206bd00c62b8e0b607a9e492e4",
+    "sha256": "0e156479b9d8617e23d992403dc4fcf6d65b2e2a77b6461178993becf359baf4"
+  },
+  "rights_scope": "Source preservation for Hs issue 3; no new license, private-repository republication, training permission or interface gate.",
+  "identity_policy": "Do not reassign these frozen turn/paragraph IDs. Preserve later corrections separately with explicit source/version references.",
+  "turns": [
+    {
+      "id": "HS-U02",
+      "turn": "HS-U02",
+      "kind": "issue_copy_author_text",
+      "line_start": 2,
+      "line_end": 2,
+      "byte_start": 32,
+      "byte_end": 462,
+      "sha256": "91e85bebfa4f03b791b23eed2a490f7b10d76bb701565c0bbfd102f92f2a405c"
+    },
+    {
+      "id": "HS-U03",
+      "turn": "HS-U03",
+      "kind": "issue_copy_author_text",
+      "line_start": 5,
+      "line_end": 5,
+      "byte_start": 503,
+      "byte_end": 799,
+      "sha256": "0bf2618cd865479aa83d275784b4b100467ac349f01a27ac7eec1240a1006eca"
+    },
+    {
+      "id": "HS-U04",
+      "turn": "HS-U04",
+      "kind": "issue_copy_author_text",
+      "line_start": 8,
+      "line_end": 12,
+      "byte_start": 860,
+      "byte_end": 1951,
+      "sha256": "8fbe88857bce10c58f851e7fbab7b26a6348cd6b7e917ae91516d264b09daef5"
+    },
+    {
+      "id": "HS-U05",
+      "turn": "HS-U05",
+      "kind": "issue_copy_author_text",
+      "line_start": 15,
+      "line_end": 15,
+      "byte_start": 2010,
+      "byte_end": 2394,
+      "sha256": "c8401b83e456c4bdf8afc562983695390a5cdd8581014bcf84a40d6cdd72caed"
+    },
+    {
+      "id": "HS-U06",
+      "turn": "HS-U06",
+      "kind": "issue_copy_author_text",
+      "line_start": 18,
+      "line_end": 18,
+      "byte_start": 2436,
+      "byte_end": 2689,
+      "sha256": "d97d378e5c0e729438d720d989ba4613c725294d42ffbfd2812c8560a7807ea1"
+    },
+    {
+      "id": "HS-U07",
+      "turn": "HS-U07",
+      "kind": "issue_copy_author_text",
+      "line_start": 21,
+      "line_end": 21,
+      "byte_start": 2749,
+      "byte_end": 3260,
+      "sha256": "a35a939170176f1a21a1a6b8cac327582eba69739d32a26f010e4cccf47d3a45"
+    },
+    {
+      "id": "HS-U08",
+      "turn": "HS-U08",
+      "kind": "issue_copy_author_text",
+      "line_start": 24,
+      "line_end": 30,
+      "byte_start": 3321,
+      "byte_end": 4361,
+      "sha256": "ad78eddd48b93a9ff988f18d75efae5d4cd9fd60acc2e566a0987a023dea98d3"
+    },
+    {
+      "id": "HS-U09",
+      "turn": "HS-U09",
+      "kind": "issue_copy_author_text",
+      "line_start": 33,
+      "line_end": 33,
+      "byte_start": 4420,
+      "byte_end": 5167,
+      "sha256": "c8a2ccf6a3409452b1b61c9892975e8b18c3be77be4084c516475f367a95913f"
+    },
+    {
+      "id": "HS-U10",
+      "turn": "HS-U10",
+      "kind": "issue_copy_author_text",
+      "line_start": 36,
+      "line_end": 36,
+      "byte_start": 5208,
+      "byte_end": 5363,
+      "sha256": "3548bcdc3a6a3ab0bdd92075f403bec3cbc8c13e05badeb9fc6b31b716bb1672"
+    },
+    {
+      "id": "HS-U11",
+      "turn": "HS-U11",
+      "kind": "issue_copy_author_text",
+      "line_start": 39,
+      "line_end": 39,
+      "byte_start": 5404,
+      "byte_end": 5529,
+      "sha256": "b7c3874995528580deee42b7039c2faeb3a18c28b0d10609ed0391e6b5eb82f8"
+    }
+  ]
+}

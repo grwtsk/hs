@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "kind": "precedence_annotations",
+  "annotation_author": "agent",
+  "authority_effect": "none",
+  "entries": [
+    {
+      "id": "PR-02",
+      "source_refs": [
+        "HS-U02-P001"
+      ],
+      "earlier_refs": [
+        "HS-U01-B013",
+        "HS-U01-B057",
+        "HS-U01-B058"
+      ],
+      "relation": "extends",
+      "summary": "Adds pure-white/pure-black redaction and rejects false absence. The palette, protected extent and accessible material treatment remain open; this entry selects no outline or gray background.",
+      "status": "ANNOTATION_NOT_A_DECISION",
+      "disagreements": [
+        "DG-06"
+      ],
+      "human_issues": [
+        9
+      ]
+    },
+    {
+      "id": "PR-03",
+      "source_refs": [
+        "HS-U03-P001"
+      ],
+      "earlier_refs": [
+        "HS-U01-B005",
+        "HS-U01-B071"
+      ],
+      "relation": "extends",
+      "summary": "Adds the arc/ark/Noah association and resistance through existence/persistence. It is authorial meaning, not an etymological proof or a rule of indefinite retention.",
+      "status": "ANNOTATION_NOT_A_DECISION",
+      "disagreements": [
+        "DG-07"
+      ],
+      "human_issues": [
+        11
+      ]
+    },
+    {
+      "id": "PR-04",
+      "source_refs": [
+        "HS-U04-P001",
+        "HS-U04-P002",
+        "HS-U04-P003"
+      ],
+      "earlier_refs": [
+        "HS-U01-B035",
+        "HS-U01-B084",
+        "HS-U01-B114"
+      ],
+      "relation": "extends",
+      "summary": "Introduces rhetorical color, relabeling, click access to intensity, consent and the dove. U07 later explicitly excludes scalar presentation. Proof-conditioned diction and consent precedence remain human questions.",
+      "status": "ANNOTATION_NOT_A_DECISION",
+      "disagreements": [
+        "DG-02",
+        "DG-04"
+      ],
+      "human_issues": [
+        8,
+        7
+      ]
+    },
+    {
+      "id": "PR-05",
+      "source_refs": [
+        "HS-U05-P001"
+      ],
+      "earlier_refs": [
+        "HS-U01-B090",
+        "HS-U01-B093",
+        "HS-U01-B101"
+      ],
+      "relation": "extends",
+      "summary": "Extends the cache into human public argument and resolution. Does not supply a numerical saturation test, a collective governance procedure, or agreement as proof.",
+      "status": "ANNOTATION_NOT_A_DECISION",
+      "disagreements": [
+        "DG-08"
+      ],
+      "human_issues": [
+        7
+      ]
+    },
+    {
+      "id": "PR-06",
+      "source_refs": [
+        "HS-U06-P001"
+      ],
+      "earlier_refs": [
+        "HS-U01-B007",
+        "HS-U01-B095"
+      ],
+      "relation": "extends",
+      "summary": "Adds welcoming, under-refined addressed localities. How hospitality relates to protocol errors and restricted resources remains a routing interpretation, not permission to fabricate content.",
+      "status": "ANNOTATION_NOT_A_DECISION",
+      "disagreements": [],
+      "human_issues": [
+        10
+      ]
+    },
+    {
+      "id": "PR-07",
+      "source_refs": [
+        "HS-U07-P001"
+      ],
+      "earlier_refs": [
+        "HS-U04-P002",
+        "HS-U04-P003"
+      ],
+      "relation": "explicit_non_scalar_constraint",
+      "summary": "The author explicitly says intensity is not presented by a scalar and may be composed. This rules out a scalar interpretation of U04; U04 did not explicitly command a scalar. Preserve U04 rather than treating this narrower clarification as replacement of its entire turn. Safety, consent and proof-conditioned rhetoric still require their scoped interpretations.",
+      "status": "ANNOTATION_NOT_A_DECISION",
+      "disagreements": [
+        "DG-02"
+      ],
+      "human_issues": [
+        8
+      ]
+    },
+    {
+      "id": "PR-08",
+      "source_refs": [
+        "HS-U08-P001",
+        "HS-U08-P002",
+        "HS-U08-P003",
+        "HS-U08-P004"
+      ],
+      "earlier_refs": [
+        "HS-U06-P001",
+        "HS-U07-P001"
+      ],
+      "relation": "extends",
+      "summary": "Adds ark-held training, orientation rather than discovery, direct/proposal routing and address-bar intent-sity. Its suggested contrast/admission correspondence remains a question, not a demonstrated numerical identity or an inferred consent rule.",
+      "status": "ANNOTATION_NOT_A_DECISION",
+      "disagreements": [
+        "DG-05",
+        "DG-10"
+      ],
+      "human_issues": [
+        10,
+        9
+      ]
+    },
+    {
+      "id": "PR-09",
+      "source_refs": [
+        "HS-U09-P001"
+      ],
+      "earlier_refs": [
+        "HS-U01-B005",
+        "HS-U07-P001"
+      ],
+      "relation": "commissions",
+      "summary": "Commissions Hs, complete front/back matter and later interface only after philosophical completion. Haas/Hospital/House are authorial meanings. This is not acceptance of an edition, interpretation, license or deployment.",
+      "status": "ANNOTATION_NOT_A_DECISION",
+      "disagreements": [
+        "DG-11",
+        "DG-12"
+      ],
+      "human_issues": [
+        6
+      ]
+    },
+    {
+      "id": "PR-10",
+      "source_refs": [
+        "HS-U10-P001"
+      ],
+      "earlier_refs": [
+        "HS-U09-P001"
+      ],
+      "relation": "commissions",
+      "summary": "Requests examination of other repositories including their imperfections. Reading and agent synthesis are not adoption, a new private-source publication grant or evidence that their planned capabilities are implemented.",
+      "status": "ANNOTATION_NOT_A_DECISION",
+      "disagreements": [
+        "DG-12"
+      ],
+      "human_issues": [
+        6
+      ]
+    },
+    {
+      "id": "PR-11",
+      "source_refs": [
+        "HS-U11-P001"
+      ],
+      "earlier_refs": [
+        "HS-U09-P001",
+        "HS-U10-P001"
+      ],
+      "relation": "requires_visible_disagreement",
+      "summary": "Requests issue extension and explicit marking of disagreements with human agency retained. The disagreement register and its new issues implement tracking, not resolution of the questions.",
+      "status": "ANNOTATION_NOT_A_DECISION",
+      "disagreements": [
+        "DG-01",
+        "DG-08",
+        "DG-12"
+      ],
+      "human_issues": [
+        65,
+        7,
+        6
+      ]
+    }
+  ]
+}
