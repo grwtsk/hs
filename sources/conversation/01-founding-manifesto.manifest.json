@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "source_id": "HS-U01",
+  "path": "sources/conversation/01-founding-manifesto.md",
+  "index_path": "sources/conversation/01-founding-manifesto.index.tsv",
+  "sha256": "0e156479b9d8617e23d992403dc4fcf6d65b2e2a77b6461178993becf359baf4",
+  "byte_length": 17779,
+  "passage_count": 115,
+  "encoding": "utf-8",
+  "line_endings": "LF",
+  "final_newline": false,
+  "source_role": "historical_author_text",
+  "capture_role": "agent_transcription_of_issue_copy",
+  "authority_effect": "none",
+  "provenance": {
+    "origin": "Founding user message in the Hs conversation, reproduced in issue 2.",
+    "retrieval_url": "https://github.com/grwtsk/hs/issues/2",
+    "issue_body_updated_at": "2026-09-20T21:07:36Z",
+    "captured_at": "2026-09-20T22:24:51Z",
+    "method": "Transcription from the delimited issue body read through the GitHub connector; no raw original-message export was available.",
+    "begin_delimiter": "## Verbatim author source begins\n\n",
+    "end_delimiter": "\n\n## Verbatim author source ends",
+    "extraction": "Only the text between these delimiters; no trimming, normalization, anchors, corrections or final newline added.",
+    "review_scope": "Agent textual comparison, not an independent automated byte comparison to the original user-message transport.",
+    "authorship_limit": "The issue copy and connector account do not independently authenticate human authorship or acceptance."
+  },
+  "identity_policy": "Block IDs address this frozen source only. Later corrections get separate versions and explicit links; never renumber this source.",
+  "rights_scope": "Preservation under the Hs source commission; this is not a license selection or permission to republish another repository.",
+  "companion_work": {
+    "later_refinements": "https://github.com/grwtsk/hs/issues/3",
+    "original_mark": "https://github.com/grwtsk/hs/issues/4",
+    "rights_and_delegation": "https://github.com/grwtsk/hs/issues/6",
+    "disagreements": "https://github.com/grwtsk/hs/issues/66"
+  }
+}
