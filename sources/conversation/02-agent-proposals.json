@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "kind": "agent_proposals",
+  "annotation_author": "agent",
+  "authority_effect": "none",
+  "entries": [
+    {
+      "id": "AP-01",
+      "source_refs": [
+        "HS-U01-B114",
+        "HS-U04-P001"
+      ],
+      "earlier_refs": [],
+      "relation": "assistant_proposal",
+      "summary": "Keep terminal proof/assumption/provenance inspection available even without an underline. The exact terminal treatment is a proposal, not an amendment silently imposed on the author.",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "disagreements": [
+        "DG-04"
+      ],
+      "human_issues": [
+        7
+      ]
+    },
+    {
+      "id": "AP-02",
+      "source_refs": [
+        "HS-U02-P001",
+        "HS-U01-B099"
+      ],
+      "earlier_refs": [],
+      "relation": "assistant_proposal",
+      "summary": "Distinguish authentication, authorization and source authenticity; use permission-sensitive, non-quantitative redaction where length/existence is protected. This is not a finding that unknown or withheld information is absent. Material perimeter/background choices remain open.",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "disagreements": [
+        "DG-06"
+      ],
+      "human_issues": [
+        9
+      ]
+    },
+    {
+      "id": "AP-03",
+      "source_refs": [
+        "HS-U04-P002",
+        "HS-U04-P003",
+        "HS-U07-P001"
+      ],
+      "earlier_refs": [],
+      "relation": "assistant_proposal",
+      "summary": "Separate receiving authored emotion from the system's evidence-bearing rhetoric; define current/prior/assisted consent and voluntary support. Non-scalar composition is explicitly sourced in U07, while these operational elaborations remain proposals.",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "disagreements": [
+        "DG-02"
+      ],
+      "human_issues": [
+        8
+      ]
+    },
+    {
+      "id": "AP-04",
+      "source_refs": [
+        "HS-U08-P002"
+      ],
+      "earlier_refs": [],
+      "relation": "assistant_proposal",
+      "summary": "Use a common admission principle with separately justified contrast, route-reliability and consent checks. Compare an exact alternative bridge rather than treating this assistant preference as settled or allowing a score to supply consent.",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "disagreements": [
+        "DG-05"
+      ],
+      "human_issues": [
+        10,
+        9
+      ]
+    },
+    {
+      "id": "AP-05",
+      "source_refs": [
+        "HS-U05-P001",
+        "HS-U01-B090"
+      ],
+      "earlier_refs": [],
+      "relation": "assistant_proposal",
+      "summary": "Distinguish proof-based, evidence-based and agreement-based resolution. Retain objections after scoped adoption; the particular collective procedure is human-chosen, not forbidden or selected by this ledger.",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "disagreements": [
+        "DG-08"
+      ],
+      "human_issues": [
+        7
+      ]
+    },
+    {
+      "id": "AP-06",
+      "source_refs": [
+        "HS-U01-B115"
+      ],
+      "earlier_refs": [],
+      "relation": "assistant_proposal",
+      "summary": "Distinguish manufacturers' physical/platform power from legitimate authority over a person's interface. This is a proposed reading of the source tension, not an adopted replacement of the author's words.",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "disagreements": [
+        "DG-09"
+      ],
+      "human_issues": [
+        11
+      ]
+    },
+    {
+      "id": "AP-07",
+      "source_refs": [
+        "HS-U06-P001",
+        "HS-U08-P001",
+        "HS-U08-P003"
+      ],
+      "earlier_refs": [],
+      "relation": "assistant_proposal",
+      "summary": "Separate an under-refined application locality from actual resource/protocol failures. Compare deterministic exact lookup with ark-only learned orientation; do not silently defer the requested learned capability or invent an available destination.",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "disagreements": [
+        "DG-10"
+      ],
+      "human_issues": [
+        10
+      ]
+    },
+    {
+      "id": "AP-08",
+      "source_refs": [
+        "HS-U01-B114",
+        "HS-U01-B115"
+      ],
+      "earlier_refs": [],
+      "relation": "assistant_proposal",
+      "summary": "Give drafts, originals, publications, derivations and replicas distinct lifecycles; define tensor-free distribution operationally rather than treating tensor removal as privacy, correctness or permission. No retention or shared-work grant is supplied.",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "disagreements": [
+        "DG-07"
+      ],
+      "human_issues": [
+        11
+      ]
+    },
+    {
+      "id": "AP-09",
+      "source_refs": [
+        "HS-U01-B046",
+        "HS-U01-B088",
+        "HS-U10-P001"
+      ],
+      "earlier_refs": [],
+      "relation": "assistant_proposal",
+      "summary": "Examine expression/grounds/authorization/rendering as four records and certificate-relative sufficiency as a possible mathematical analogy. Selecting observable distinctions is a human question; the analogy is not an established theorem about people.",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "disagreements": [
+        "DG-01"
+      ],
+      "human_issues": [
+        65
+      ]
+    },
+    {
+      "id": "AP-10",
+      "source_refs": [
+        "HS-U01-B106",
+        "HS-U09-P001",
+        "HS-U11-P001"
+      ],
+      "earlier_refs": [],
+      "relation": "assistant_proposal",
+      "summary": "Consider prospectively authorized classes of bounded reversible mechanical repairs to reduce approval burden. No standing repair/merge grant or retrospective waiver is created by this suggestion.",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "disagreements": [
+        "DG-11"
+      ],
+      "human_issues": [
+        6
+      ]
+    },
+    {
+      "id": "AP-11",
+      "source_refs": [
+        "HS-U01-B082",
+        "HS-U01-B085",
+        "HS-U10-P001"
+      ],
+      "earlier_refs": [],
+      "relation": "assistant_proposal",
+      "summary": "Allow local reader revisions while preserving authors' source boundaries, omissions and endings. Exact source/revision/claim correspondence and public disclosure need separate treatment; no participant is assigned an unsourced position.",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "disagreements": [
+        "DG-03"
+      ],
+      "human_issues": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "AP-12",
+      "source_refs": [
+        "HS-U09-P001",
+        "HS-U10-P001",
+        "HS-U11-P001"
+      ],
+      "earlier_refs": [],
+      "relation": "assistant_proposal",
+      "summary": "Use the authored internal lineage alongside external philosophical interlocutors. The prior assistant synthesis is a research proposal, not evidence of influence, author-approved voice or permission to republish a private narrative.",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "disagreements": [
+        "DG-12"
+      ],
+      "human_issues": [
+        6
+      ]
+    }
+  ]
+}

@@ -1,3 +1,5 @@
 # Preserve the frozen source, including its space-only second line and no EOF LF.
 # This is a path-specific archival exception, not a global whitespace waiver.
 sources/conversation/01-founding-manifesto.md -text whitespace=-blank-at-eol
+# Preserve the later issue-copy capture without newline conversion.
+sources/conversation/02-author-refinements.md -text

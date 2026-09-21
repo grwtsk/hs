@@ -67,3 +67,17 @@ Interface implementation still requires both [G1](https://github.com/grwtsk/hs/i
 and [G2](https://github.com/grwtsk/hs/issues/38). Repository-wide gate tooling is
 future work in [#5](https://github.com/grwtsk/hs/issues/5), not a capability claimed
 by this source checker.
+
+## Later source archive
+
+Issue #3's captured U02–U11 inputs, scoped precedence annotations and separate
+assistant-proposal ledger are described in
+[the refinement guide](conversation/02-reading-guide.md). This adds ten captured
+turns and fifteen author paragraphs without changing any HS-U01 passage. The
+guide records the issue-copy provenance, including the U09 punctuation difference
+from the available conversation display; it does not claim raw transport identity.
+
+```sh
+python3 -B tools/book/check_refinements.py check
+python3 -B tools/book/check_refinements.py show HS-U07
+```
