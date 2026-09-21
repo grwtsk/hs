@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "source_id": "HS-NAV-01",
+  "path": "sources/conversation/03-edit-navigation.md",
+  "sha256": "2d7872e93e3dbac95f5a87e1918ed6f30e745e518f505b9d10265d1cb6eb7eb6",
+  "byte_length": 1798,
+  "encoding": "utf-8",
+  "line_endings": "LF",
+  "final_newline": false,
+  "source_role": "author_instruction",
+  "capture_role": "agent_transcription_of_visible_conversation",
+  "capture_scope": "Complete current user message; no spelling or punctuation correction. Original transport whitespace and independent authorship authentication are not certified. No assistant continuation is included.",
+  "issue": 79,
+  "research_issue": 80,
+  "preserved_earlier_sources": [
+    "HS-U01",
+    "HS-U02 through HS-U11"
+  ],
+  "precedence": "Removes the separate required intensity composer; editing is the input, intensity is implicit; sphere clicks request discovery. Does not retrospectively rewrite earlier instructions.",
+  "authority_effect": "Record the supplied instruction; no acceptance of exact future prose, physical theorem, rights change or G1/G2/G3.",
+  "paragraphs": [
+    {
+      "id": "HS-NAV-01-P01",
+      "line": 1,
+      "byte_start": 0,
+      "byte_end": 21,
+      "sha256": "d0a690b237af2415edf23bc9bad125835f6a28d8d226b0eb690b393209e2add6"
+    },
+    {
+      "id": "HS-NAV-01-P02",
+      "line": 2,
+      "byte_start": 22,
+      "byte_end": 1092,
+      "sha256": "6c77a7898f8af6b57ed71da946a467cc67e094e52b1ab6663d2bd04b8cdc951a"
+    },
+    {
+      "id": "HS-NAV-01-P03",
+      "line": 4,
+      "byte_start": 1094,
+      "byte_end": 1798,
+      "sha256": "d92029f4fff22c11b7ac982275820457d41d45d38173f5890b21d6c1fb59bd4c"
+    }
+  ]
+}

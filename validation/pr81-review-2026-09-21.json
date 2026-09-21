@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "kind": "agent_source_research_review",
+  "authority_effect": "none",
+  "status": "PARTIAL_VALIDATION_NOT_MERGE_READY",
+  "repository": "grwtsk/hs",
+  "pr": 81,
+  "branch": "sources/79-edit-navigation",
+  "remote_input": {
+    "main": "921698405285f163d9bad3a27ec86a794b751578",
+    "head": "fc2aba483941b8a9fb938113fa5f7e5c5740133c",
+    "tree": "208b2ec13f8d4fbc1809c4513aab6ccfb50bcbb1"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "git": "git version 2.47.3"
+  },
+  "workspace": {
+    "kind": "partial connector-read snapshot, not a complete checkout",
+    "initial_git_baseline": {
+      "kind": "partial_connector_snapshot_not_remote_checkout",
+      "local_commit": "593d6d46bb3450400b3d92e1eb50a89ed04e5aa9",
+      "local_tree": "84b7008bf1cfbe41457672954b4d79ab5ebb6ec7",
+      "verified_remote_input_head": "fc2aba483941b8a9fb938113fa5f7e5c5740133c",
+      "verified_remote_input_tree": "208b2ec13f8d4fbc1809c4513aab6ccfb50bcbb1",
+      "input_paths": [
+        "sources/conversation/03-edit-navigation.md",
+        "sources/conversation/03-edit-navigation.manifest.json",
+        "research/interaction/editing-navigation.md",
+        "research/mathematical-bridges/authorized-influence.md",
+        "tools/book/check_founding_source.py",
+        "tools/book/check_refinements.py",
+        "tools/book/inspect_mark.py",
+        "sources/conversation/01-founding-manifesto.md",
+        "sources/conversation/01-founding-manifesto.index.tsv",
+        "sources/conversation/01-founding-manifesto.manifest.json",
+        "sources/conversation/02-author-refinements.md",
+        "sources/conversation/02-author-refinements.index.tsv",
+        "sources/conversation/02-author-refinements.manifest.json",
+        "sources/conversation/02-precedence.json",
+        "sources/conversation/02-agent-proposals.json",
+        "tests/test_founding_source.py"
+      ]
+    },
+    "final_local_baseline": {
+      "kind": "partial_connector_snapshot_not_remote_checkout",
+      "local_commit": "39385ddc3bc7778e173843389066e6b9f87b4782",
+      "local_tree": "4f622c3dd1013d3a5e3610425ed76145161c4c56",
+      "verified_remote_input_head": "fc2aba483941b8a9fb938113fa5f7e5c5740133c",
+      "verified_remote_input_tree": "208b2ec13f8d4fbc1809c4513aab6ccfb50bcbb1",
+      "input_paths": [
+        "sources/conversation/03-edit-navigation.md",
+        "sources/conversation/03-edit-navigation.manifest.json",
+        "research/interaction/editing-navigation.md",
+        "research/mathematical-bridges/authorized-influence.md",
+        "tools/book/check_founding_source.py",
+        "tools/book/check_refinements.py",
+        "tools/book/inspect_mark.py",
+        "sources/conversation/01-founding-manifesto.md",
+        "sources/conversation/01-founding-manifesto.index.tsv",
+        "sources/conversation/01-founding-manifesto.manifest.json",
+        "sources/conversation/02-author-refinements.md",
+        "sources/conversation/02-author-refinements.index.tsv",
+        "sources/conversation/02-author-refinements.manifest.json",
+        "sources/conversation/02-precedence.json",
+        "sources/conversation/02-agent-proposals.json",
+        "tests/test_founding_source.py",
+        "README.md",
+        "research/source-revisits/index.json"
+      ]
+    },
+    "transport": "Container git transport failed resolving github.com before authentication; GitHub connector reads worked. No credentials or reconnection requested.",
+    "preservation": "No pre-existing checkout was overwritten. Original inputs were admitted locally only after matching their remote Git blob identities; remote publication must build on the actual PR tree, not this partial tree."
+  },
+  "commands": [
+    {
+      "command": "python3 -B tools/book/check_founding_source.py check",
+      "started_at": "2026-09-21T19:56:34.874908+00:00",
+      "exit_code": 0,
+      "stdout": "ARCHIVE_INTEGRITY_OK source=HS-U01 bytes=17779 passages=115 sections=10 addendum=2 authority=none\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 -B tools/book/check_refinements.py check",
+      "started_at": "2026-09-21T19:56:35.827026+00:00",
+      "exit_code": 0,
+      "stdout": "REFINEMENTS_INTEGRITY_OK turns=10 author_paragraphs=15 editorial_headings=10 proposals=12 disagreements=12 authority=none\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 -B tools/book/inspect_mark.py check",
+      "started_at": "2026-09-21T19:56:36.758993+00:00",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "READ_OR_FORMAT_ERROR\n",
+      "result_scope": "FAILED in the partial local snapshot: asset manifest, report and PNG were not materialized. READ_OR_FORMAT_ERROR is not evidence that the committed asset is absent or damaged."
+    },
+    {
+      "command": "python3 -B tools/book/check_edit_navigation.py check",
+      "started_at": "2026-09-21T19:56:37.889440+00:00",
+      "exit_code": 0,
+      "stdout": "NAV_INTEGRITY_OK source=HS-NAV-01 bytes=1798 anchors=3 authority=none\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 -B -m unittest discover -s tests -v",
+      "started_at": "2026-09-21T19:56:38.833922+00:00",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_actual_cli (test_edit_navigation.NavigationTests.test_actual_cli) ... ok\ntest_actual_frozen_binding (test_edit_navigation.NavigationTests.test_actual_frozen_binding) ... ok\ntest_boolean_is_not_integer (test_edit_navigation.NavigationTests.test_boolean_is_not_integer) ... ok\ntest_character_offset_is_not_utf8_offset (test_edit_navigation.NavigationTests.test_character_offset_is_not_utf8_offset) ... ok\ntest_crlf (test_edit_navigation.NavigationTests.test_crlf) ... ok\ntest_duplicate_id (test_edit_navigation.NavigationTests.test_duplicate_id) ... ok\ntest_duplicate_json_keys (test_edit_navigation.NavigationTests.test_duplicate_json_keys) ... ok\ntest_empty_rows (test_edit_navigation.NavigationTests.test_empty_rows) ... ok\ntest_extra_approval_field (test_edit_navigation.NavigationTests.test_extra_approval_field) ... ok\ntest_invalid_utf8 (test_edit_navigation.NavigationTests.test_invalid_utf8) ... ok\ntest_lf_is_not_payload (test_edit_navigation.NavigationTests.test_lf_is_not_payload) ... ok\ntest_malformed_row (test_edit_navigation.NavigationTests.test_malformed_row) ... ok\ntest_missing_intro (test_edit_navigation.NavigationTests.test_missing_intro) ... ok\ntest_nonfinite_json (test_edit_navigation.NavigationTests.test_nonfinite_json) ... ok\ntest_overlap (test_edit_navigation.NavigationTests.test_overlap) ... ok\ntest_oversize_read (test_edit_navigation.NavigationTests.test_oversize_read) ... ok\ntest_path_escape (test_edit_navigation.NavigationTests.test_path_escape) ... ok\ntest_payload_gap (test_edit_navigation.NavigationTests.test_payload_gap) ... ok\ntest_reordered_spans (test_edit_navigation.NavigationTests.test_reordered_spans) ... ok\ntest_symlink_read (test_edit_navigation.NavigationTests.test_symlink_read) ... ok\ntest_synthetic_complete_utf8 (test_edit_navigation.NavigationTests.test_synthetic_complete_utf8) ... ok\ntest_wrong_digest (test_edit_navigation.NavigationTests.test_wrong_digest) ... ok\ntest_wrong_line (test_edit_navigation.NavigationTests.test_wrong_line) ... ok\ntest_bool_schema_version_rejected (test_founding_source.ArchiveTests.test_bool_schema_version_rejected) ... ok\ntest_changed_index_range_rejected (test_founding_source.ArchiveTests.test_changed_index_range_rejected) ... ok\ntest_changed_passage_count_rejected (test_founding_source.ArchiveTests.test_changed_passage_count_rejected) ... ok\ntest_coedited_source_and_manifest_not_rebased (test_founding_source.ArchiveTests.test_coedited_source_and_manifest_not_rebased) ... ok\ntest_commands_are_read_only_and_show_exact_bytes (test_founding_source.ArchiveTests.test_commands_are_read_only_and_show_exact_bytes) ... ok\ntest_crlf_rewrite_rejected (test_founding_source.ArchiveTests.test_crlf_rewrite_rejected) ... ok\ntest_duplicate_manifest_key_rejected (test_founding_source.ArchiveTests.test_duplicate_manifest_key_rejected) ... ok\ntest_every_nonblank_line_is_addressed_exactly_once (test_founding_source.ArchiveTests.test_every_nonblank_line_is_addressed_exactly_once) ... ok\ntest_file_size_bound (test_founding_source.ArchiveTests.test_file_size_bound) ... ok\ntest_final_newline_added_rejected (test_founding_source.ArchiveTests.test_final_newline_added_rejected) ... ok\ntest_frozen_identity_and_coverage (test_founding_source.ArchiveTests.test_frozen_identity_and_coverage) ... ok\ntest_malformed_manifest_and_cli_usage_fail (test_founding_source.ArchiveTests.test_malformed_manifest_and_cli_usage_fail) ... ok\ntest_manifest_path_cannot_redirect_reader (test_founding_source.ArchiveTests.test_manifest_path_cannot_redirect_reader) ... ok\ntest_missing_addendum_rejected (test_founding_source.ArchiveTests.test_missing_addendum_rejected) ... ok\ntest_missing_index_row_rejected (test_founding_source.ArchiveTests.test_missing_index_row_rejected) ... ok\ntest_nonfinite_manifest_value_rejected (test_founding_source.ArchiveTests.test_nonfinite_manifest_value_rejected) ... ok\ntest_original_whitespace_and_spelling_retained (test_founding_source.ArchiveTests.test_original_whitespace_and_spelling_retained) ... ok\ntest_preservation_does_not_become_approval (test_founding_source.ArchiveTests.test_preservation_does_not_become_approval) ... ok\ntest_renumbered_index_rejected (test_founding_source.ArchiveTests.test_renumbered_index_rejected) ... ok\ntest_source_edit_rejected (test_founding_source.ArchiveTests.test_source_edit_rejected) ... ok\ntest_symlink_rejected (test_founding_source.ArchiveTests.test_symlink_rejected) ... ok\ntest_unicode_offsets_are_bytes_not_character_offsets (test_founding_source.ArchiveTests.test_unicode_offsets_are_bytes_not_character_offsets) ... ok\ntest_unknown_id_and_missing_file_fail (test_founding_source.ArchiveTests.test_unknown_id_and_missing_file_fail) ... ok\ntest_whitespace_normalization_rejected (test_founding_source.ArchiveTests.test_whitespace_normalization_rejected) ... ok\ntest_wrong_source_identity_rejected (test_founding_source.ArchiveTests.test_wrong_source_identity_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 48 tests in 8.527s\n\nOK\n",
+      "result_scope": "48 discovered tests passed: 23 new NAV tests plus 25 founding tests. Missing original refinement and asset test modules were not discovered; this is not the full repository suite."
+    },
+    {
+      "command": "python3 -B tools/book/check_influence_model.py",
+      "started_at": "2026-09-21T19:56:48.379014+00:00",
+      "exit_code": 0,
+      "stdout": "PASS two_node_spectrum\nPASS normalized_frequency_squared\nPASS weak_coupling_limit\nPASS no_positive_mode_at_zero\nPASS unbounded_mass_counterexample\nPASS undamped_nondecay\nPASS zero_stiffness_drift\nPASS fixed_work_identity\nPASS integrated_work_identity\nPASS changing_system_terms\nFINITE_SYMBOLIC_OK checks=10 sympy=1.14.0 authority=none\n",
+      "stderr": ""
+    },
+    {
+      "command": "git diff --check",
+      "started_at": "2026-09-21T19:56:50.474520+00:00",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "missing_for_full_replay": [
+    "tests/test_refinements.py",
+    "tests/test_mark_asset.py",
+    "sources/assets/grwtsk-original.manifest.json",
+    "sources/assets/grwtsk-original.measurements.json",
+    "sources/assets/grwtsk.png"
+  ],
+  "coverage_limit": "Running discovery in a partial workspace can return success while original modules are missing. No full-suite pass is claimed. No test skip was inserted to conceal missing input.",
+  "review_levels": {
+    "source_integrity": "fresh frozen-byte/range checks passed; original transport/authorship not independently authenticated",
+    "mathematics": "general finite identities and sufficient graph bound manually derived and agent-self-reviewed; ten exact symbolic examples/cancellations passed; no Lean proof or independent mathematical review",
+    "editorial": "agent self-review, not independent review or human adoption",
+    "browser_accessibility_interface": "not implemented and not tested",
+    "human_acceptance": "none; no merge grant found"
+  },
+  "asset": {
+    "path": "sources/assets/grwtsk.png",
+    "remote_git_blob": "b481ca7006ba1bcb8821a75f0cf96c7d22c5f81c",
+    "expected_bytes": 34918,
+    "expected_sha256": "e197a1263819ae2c03a9776ac16076de75618aa9af7778d4acb266c6d5774692",
+    "fresh_binary_verification": false,
+    "write_authorized": false,
+    "status": "unchanged remote identity; local binary check not completed"
+  },
+  "source_preservation": {
+    "NAV_source_unchanged": true,
+    "NAV_manifest_unchanged": true,
+    "prior_conversation_sources_unchanged": true,
+    "prior_validation_records_unchanged": true
+  },
+  "reviewed_payloads": {
+    "README.md": {
+      "bytes": 3272,
+      "git_blob": "bd9f717c198352032a54e81a49e702eeb95051e3",
+      "sha256": "6001a4a9b205d60698b412471e9777c21477abc6904ac1a8af121d8919f03181"
+    },
+    "research/interaction/editing-navigation.md": {
+      "bytes": 11563,
+      "git_blob": "921edd69874fad8421bfeb67aa6e9adec80efaa8",
+      "sha256": "23589849e6ae5a155345e054770716fb44ae93e266177c89ce14542e272e9a78"
+    },
+    "research/mathematical-bridges/authorized-influence.md": {
+      "bytes": 11451,
+      "git_blob": "9563c329fc790f286ec930c83e1037088bbf4e0e",
+      "sha256": "0a781a56835371e884252a43a8828bc6353c4201c032a0484a1ea0f0f9a073a1"
+    },
+    "research/source-revisits/index.json": {
+      "bytes": 1006,
+      "git_blob": "ac1c27ed9858689e2a43703f58c59ede542b8454",
+      "sha256": "b5185a3f4f548d53e3ce972b7b739fc9fa735c10dcf93b9e1ec923a58335aaf1"
+    },
+    "research/source-revisits/huey-rf01-002.json": {
+      "bytes": 3543,
+      "git_blob": "e3bc0d3b8bd4f7fad41e114aa634713b877328dd",
+      "sha256": "0ff292721c6bc0e03eee84c4595ca73bde0a64076da747fde6dec891a089193c"
+    },
+    "tools/book/check_edit_navigation.py": {
+      "bytes": 4756,
+      "git_blob": "93bb5dd688dc1deff634d122561833d054c59a37",
+      "sha256": "332aa4390629184430641f36468e64666d94d1f93c3334d736af88095192259d"
+    },
+    "tests/test_edit_navigation.py": {
+      "bytes": 4813,
+      "git_blob": "7b0dc862970bf863da10714218a4230d011c31b1",
+      "sha256": "5f7fb91425244b6cd703b6ff87f85c6c94c842b6a8fe2730cb697f0c2c6d9efe"
+    },
+    "tools/book/check_influence_model.py": {
+      "bytes": 3321,
+      "git_blob": "3ac39022821ce1096be16bbd90f4d1ebff0660fa",
+      "sha256": "061349e1fc881f924dd4bd81a654fecce66fe15c25f6ca7949af1836a9336d23"
+    }
+  },
+  "manifest_scope": "Payload digests exclude this receipt and the explanatory review Markdown to avoid self-hashing. Their containing remote commit/tree and actual final diff check are recorded in the PR review after the write.",
+  "remaining_issues": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    14,
+    36,
+    38,
+    61,
+    65,
+    66,
+    74,
+    75,
+    79,
+    80
+  ],
+  "next": "Finish PR81 full-checkout validation and obtain applicable human merge authorization for the exact reviewed head; only after that queue clears implement one bounded #5 manuscript-foundation PR from then-current main.",
+  "trust_boundary": [
+    "A declared approval record cannot independently authenticate its human origin.",
+    "A filename scan cannot prove absence of all interface behavior. Changed code still needs inspection.",
+    "Green structural checks do not establish literary completeness, philosophical truth, source rights, physical theory or consent.",
+    "A finite positive gap and its chosen normalization do not establish a uniform family bound or a Yang-Mills construction."
+  ],
+  "foundation_scope": "No #5 foundation implementation is appended to this PR. All fourteen chapters, complete front/back matter, actual-issue typed dependencies, separate attribution/disposition records, synthetic validators and resumption work remain required.",
+  "automation_installed": false
+}
