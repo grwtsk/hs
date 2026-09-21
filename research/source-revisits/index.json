@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "instruction_issue": "https://github.com/grwtsk/hs/issues/75",
+  "execution": "during_authorized_work_only",
+  "records": [
+    {
+      "id": "SR-HUEY-RF01-001",
+      "path": "huey-rf01-001.json",
+      "source": "grwtsk/huey:planning/relational-framing.md",
+      "result": "unchanged_for_inspected_scope",
+      "dependent_work": [14, 24, 64, 67, 74],
+      "remaining": "Actual relevant Huey manuscript and other primary-source re-readings remain separate obligations."
+    }
+  ],
+  "parent_complete": false,
+  "automation_installed": false,
+  "human_gate_accepted": false
+}

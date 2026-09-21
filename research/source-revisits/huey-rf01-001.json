@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "review_id": "SR-HUEY-RF01-001",
+  "record_kind": "agent_source_review_not_human_acceptance",
+  "instruction_issue": "https://github.com/grwtsk/hs/issues/75",
+  "reviewed_at_utc": "2026-09-21T02:08:37Z",
+  "source": {
+    "repository": "grwtsk/huey",
+    "path": "planning/relational-framing.md",
+    "prior_commit": "0d15e7a1a2dedd048ef4def7340d6edb3aceb10f",
+    "prior_blob": "f5d0158c2bd2bd55ef54aaaf728df1c35992db78",
+    "current_commit": "0d15e7a1a2dedd048ef4def7340d6edb3aceb10f",
+    "current_blob": "f5d0158c2bd2bd55ef54aaaf728df1c35992db78",
+    "current_version_url": "https://github.com/grwtsk/huey/blob/0d15e7a1a2dedd048ef4def7340d6edb3aceb10f/planning/relational-framing.md",
+    "read_scope": "Complete public RF-01 contract, returned through the GitHub connector; main ref rechecked separately.",
+    "delta": "unchanged"
+  },
+  "related_instruction": {
+    "url": "https://github.com/grwtsk/huey/issues/98",
+    "reported_updated_at": "2026-09-20T23:55:19Z",
+    "read_scope": "Current issue body, not a new replay of its reported implementation or an inspection of the underlying manuscript."
+  },
+  "findings": [
+    "The fetched contract has the same commit and blob identity as the RF-01 source used for RG-01-R02.",
+    "Its complete text still distinguishes relational description from an imposed accusation, defense, motive prerequisite or identity erasure.",
+    "It preserves original sources and corrects derived framing; its local tool outputs explicitly do not establish semantic correctness, consent or truth."
+  ],
+  "dependent_work": [
+    "https://github.com/grwtsk/hs/issues/14",
+    "https://github.com/grwtsk/hs/issues/24",
+    "https://github.com/grwtsk/hs/issues/64",
+    "https://github.com/grwtsk/hs/issues/67",
+    "https://github.com/grwtsk/hs/issues/74"
+  ],
+  "case": "RG-01-R02",
+  "existing_disagreements": ["DG-01", "DG-04", "DG-08", "DG-12"],
+  "effect": "No source-driven change to the R02 framing is indicated by this contract re-read alone. No DG is resolved and no whole-chapter acceptance is inferred.",
+  "limits": {
+    "private_huey_manuscript": "not_inspected_in_this_review",
+    "underlying_historical_sources": "not_reexamined_in_this_review",
+    "upstream_tests": "not_replayed_in_this_review",
+    "all_other_r02_readings": "not_reexamined_in_this_review",
+    "access_conclusion": "This scope limit is not a claim that information does not exist."
+  },
+  "next_review": "Inspect relevant revised Huey manuscript passages and their source maps through an authorized channel when supplied or available; record an exact new reading rather than substituting this contract or a progress report.",
+  "disclosure": "Public source-neutral references and bounded analysis only; no private manuscript, source corpus, participant details or protected ending copied.",
+  "authority_effect": "none",
+  "background_work_installed": false
+}
