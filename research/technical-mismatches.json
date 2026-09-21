@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "kind": "technical_mismatches",
+  "items": [
+    {
+      "id": "TM-PR81-CHECKOUT",
+      "state": "resolved_execution_gap",
+      "evidence": "https://github.com/grwtsk/hs/actions/runs/35651045212",
+      "description": "The earlier partial workspace could not execute asset/full-suite checks. The later exact-head complete checkout passed 109 tests; earlier failures remain historical, not rewritten. This is an execution correction, not a philosophical vote."
+    }
+  ]
+}

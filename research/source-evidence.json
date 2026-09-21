@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "kind": "source_evidence",
+  "items": [
+    {
+      "id": "S-NAV",
+      "url": "https://github.com/grwtsk/hs/blob/86833d0a30bfd398bb7993dbe9b8371c32b258ce/sources/conversation/03-edit-navigation.md",
+      "version": "86833d0a30bfd398bb7993dbe9b8371c32b258ce",
+      "local_path": "sources/conversation/03-edit-navigation.md",
+      "sha256": "2d7872e93e3dbac95f5a87e1918ed6f30e745e518f505b9d10265d1cb6eb7eb6",
+      "reading_scope": "Complete four-line preserved capture; reviewed in PR81. Original transport/authorship not independently authenticated.",
+      "status": "read",
+      "public_copy": true
+    },
+    {
+      "id": "S-COMMISSION",
+      "url": "https://github.com/grwtsk/hs/issues/1",
+      "version": "issue-body available at 2026-09-21 resumption",
+      "local_path": null,
+      "sha256": null,
+      "reading_scope": "Complete program commission in task context; book not accepted.",
+      "status": "reference_only_for_approval",
+      "public_copy": false
+    },
+    {
+      "id": "S-RIGOR74",
+      "url": "https://github.com/grwtsk/hs/issues/74",
+      "version": "issue-body updated 2026-09-21T02:13:48Z; inherited reading",
+      "local_path": null,
+      "sha256": null,
+      "reading_scope": "Instruction and recorded RG-01 research in task context, not a fresh complete R02 packet or corrected Huey master reading.",
+      "status": "reference_only_for_approval",
+      "public_copy": false
+    },
+    {
+      "id": "S-DG66",
+      "url": "https://github.com/grwtsk/hs/issues/66",
+      "version": "issue-body read 2026-09-21; updated 2026-09-21T18:57:23Z",
+      "local_path": null,
+      "sha256": null,
+      "reading_scope": "Full current body and all three comments (5753057540, 5753622249, 5765851396); twelve source tensions and existing owner mappings, not human dispositions.",
+      "status": "reference_only_for_approval",
+      "public_copy": false
+    },
+    {
+      "id": "S-EVOLUTION75",
+      "url": "https://github.com/grwtsk/hs/issues/75",
+      "version": "issue-body updated 2026-09-21T02:13:31Z; inherited reading",
+      "local_path": null,
+      "sha256": null,
+      "reading_scope": "Continuing authorized-resumption practice, not a watcher or a claim to have read every source.",
+      "status": "reference_only_for_approval",
+      "public_copy": false
+    }
+  ]
+}

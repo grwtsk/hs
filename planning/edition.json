@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "kind": "manuscript_commission",
+  "front": [
+    {
+      "id": "half-title",
+      "issue": 16,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "title",
+      "issue": 16,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "rights-and-edition",
+      "issue": 16,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "dedication",
+      "issue": 16,
+      "requirement": "optional_if_approved",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "epigraph",
+      "issue": 16,
+      "requirement": "optional_if_approved",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "foreword",
+      "issue": 16,
+      "requirement": "optional_if_approved",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "preface",
+      "issue": 16,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "readers-note",
+      "issue": 16,
+      "requirement": "required",
+      "state": "provisional",
+      "path": "manuscript/front/readers-note.md"
+    },
+    {
+      "id": "contents",
+      "issue": 16,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "lists",
+      "issue": 16,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "issue": 17,
+      "title": "House, sanctuary, care and communion",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 2,
+      "issue": 18,
+      "title": "Human agency and bounded delegation",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 3,
+      "issue": 19,
+      "title": "Silence, attention and chosen discovery",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 4,
+      "issue": 20,
+      "title": "Arc, ark, resistance and persistence",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 5,
+      "issue": 21,
+      "title": "Geometry, extent, typography, density and material",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 6,
+      "issue": 22,
+      "title": "Color, rhetorical meaning and redaction",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 7,
+      "issue": 23,
+      "title": "Intent implicit in editing and advisory resistance",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 8,
+      "issue": 24,
+      "title": "Rigor, courage, evidence, revision and proof",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 9,
+      "issue": 25,
+      "title": "Caches, local keeping and authorized context",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 10,
+      "issue": 26,
+      "title": "Public argument and shared commitments",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 11,
+      "issue": 27,
+      "title": "Editable locality and situated reference",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 12,
+      "issue": 28,
+      "title": "Weight, welcoming care and the dove",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 13,
+      "issue": 29,
+      "title": "Computation, influence, resources and devices",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "number": 14,
+      "issue": 30,
+      "title": "Accountable return without false closure",
+      "state": "unwritten",
+      "path": null
+    }
+  ],
+  "back": [
+    {
+      "id": "notes",
+      "issue": 31,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "bibliography",
+      "issue": 31,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "quotation-and-rights",
+      "issue": 31,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "glossary",
+      "issue": 32,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "contract-appendix",
+      "issue": 32,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "source-appendix",
+      "issue": 32,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "disagreement-index",
+      "issue": 32,
+      "requirement": "required",
+      "state": "working_apparatus",
+      "path": "manuscript/back/disagreements.md"
+    },
+    {
+      "id": "acknowledgments",
+      "issue": 32,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "colophon",
+      "issue": 32,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "afterword",
+      "issue": 32,
+      "requirement": "optional_if_approved",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "errata",
+      "issue": 32,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    },
+    {
+      "id": "index",
+      "issue": 32,
+      "requirement": "required",
+      "state": "unwritten",
+      "path": null
+    }
+  ]
+}
