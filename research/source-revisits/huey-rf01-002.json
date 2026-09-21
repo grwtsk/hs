@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "review_id": "SR-HUEY-RF01-002",
+  "reviewed_on": "2026-09-21",
+  "reviewer_role": "agent",
+  "authority_effect": "none",
+  "previous_record": "research/source-revisits/huey-rf01-001.json",
+  "previous_public_source": {
+    "repository": "grwtsk/huey",
+    "commit": "0d15e7a1a2dedd048ef4def7340d6edb3aceb10f",
+    "path": "planning/relational-framing.md",
+    "git_blob": "f5d0158c2bd2bd55ef54aaaf728df1c35992db78"
+  },
+  "current_public_source": {
+    "repository": "grwtsk/huey",
+    "commit": "2115214d33ecb2ffebd4cb6f78d1c428fe57cb15",
+    "path": "planning/relational-framing.md",
+    "git_blob": "4ff1bf616ed6812ee536550fa4a8a0b1ef81fb16",
+    "url": "https://github.com/grwtsk/huey/blob/2115214d33ecb2ffebd4cb6f78d1c428fe57cb15/planning/relational-framing.md"
+  },
+  "reading_scope": "Entire current public RF-01 contract, including the added explicit-self-attribution section referring to Huey issue 105. Not the source conversation behind that section or the whole corrected manuscript.",
+  "delta_kind": "newly_relevant",
+  "delta": "The current contract explicitly distinguishes author-chosen self-description from a classification imposed by an assistant. A chosen classification must not be erased, euphemized or forced into uncertainty merely because it is a classification. Its author, referent and scope remain distinct from other accounts.",
+  "unchanged_constraints": [
+    "Supported relationships do not require a known motive to remain describable.",
+    "Description must remain accountable for selection and omission; neither institution nor author receives blanket credibility.",
+    "Original evidence and historical allegations remain unchanged.",
+    "The word racism remains available; no imposed accusation, exoneration or label-proof prerequisite."
+  ],
+  "private_reading_status": {
+    "actual_snapshot_read": true,
+    "scope": "Limited opening passages and contextual source-preservation/chronology excerpts from an authorized Library snapshot, version 1. The exact restricted identifier and passage ranges are in the local private reading receipt, not copied into public Git.",
+    "delta_from_prior_record": "An actual limited manuscript snapshot is now read, rather than only an issue or public editorial contract.",
+    "current_master_correspondence": "not_established",
+    "expansion_limit": "Subsequent requests for wider contiguous passages returned no readable content. This is an access/result limitation, not a finding that the manuscript or passages do not exist.",
+    "private_prose_republished": false
+  },
+  "affected_hs_work": [
+    14,
+    23,
+    24,
+    64,
+    67,
+    74,
+    75,
+    79
+  ],
+  "affected_disagreements": [
+    "DG-01",
+    "DG-04",
+    "DG-08",
+    "DG-12"
+  ],
+  "human_owner_issues": [
+    6,
+    7,
+    65
+  ],
+  "derived_change": {
+    "path": "research/interaction/editing-navigation.md",
+    "section": "Resistance has a reason and an end",
+    "status": "agent_explanation_of_current_source_not_human_acceptance"
+  },
+  "remaining": [
+    "Compare the current corrected master through its authorized channel before dependent whole-chapter acceptance.",
+    "Integrate RG-01-R02 into the complete chapter with exact source/rights apparatus; the issue packet is not the complete book.",
+    "Do not treat this public-contract reading as fresh execution of Huey tests or a reading of every external work cited by RG-01."
+  ],
+  "gates": {
+    "G1_issue": 36,
+    "G2_issue": 38,
+    "G3_issue": 61,
+    "acceptance_inferred": false
+  }
+}

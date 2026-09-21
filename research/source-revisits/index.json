@@ -10,6 +10,14 @@
       "result": "unchanged_for_inspected_scope",
       "dependent_work": [14, 24, 64, 67, 74],
       "remaining": "Actual relevant Huey manuscript and other primary-source re-readings remain separate obligations."
+    },
+    {
+      "id": "SR-HUEY-RF01-002",
+      "path": "huey-rf01-002.json",
+      "source": "grwtsk/huey:planning/relational-framing.md",
+      "result": "newly_relevant",
+      "dependent_work": [14, 23, 24, 64, 67, 74, 75, 79],
+      "remaining": "Current corrected-master correspondence and full dependent chapter review remain unestablished; limited snapshot reading does not replace them."
     }
   ],
   "parent_complete": false,

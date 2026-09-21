@@ -19,8 +19,8 @@ it does not substitute for reading the manuscript or install a background watche
 [Original-mark source tools](sources/assets/README.md) and reference measurements
 accompany the author's upload at `sources/assets/grwtsk.png` in commit
 `3c45aadb6688b1995a8b8f8a34ff29a9001383f9`. The original remains unchanged;
-only its text references are aligned with the author's filename. All 86 tests
-passed with no skips. The Git-object verification method and local
+only its text references are aligned with the author's filename. At that earlier
+upload checkpoint, 86 tests passed with no skips; that is a historical result. The Git-object verification method and local
 execution limits are recorded in [upload-status.json](sources/assets/upload-status.json)
 and [the verification receipt](validation/upload-verification.json). Metadata
 validation alone is not binary verification.
@@ -43,3 +43,13 @@ book/interface briefs. [The influence research](research/mathematical-bridges/au
 keeps the proposed force/mass/1/(2*pi) relationship distinct from an implemented
 policy or a proved physical Yang-Mills result. Neither note implements the
 interface or accepts G1/G2/G3. Earlier source text and test receipts stay intact.
+
+## Source/research validation, not philosophical acceptance
+
+The [PR #81 review and local commands](validation/pr81-review-2026-09-21.md)
+record fresh source-integrity and finite symbolic checks, the limited test scope,
+and the failed local asset check. They do not reuse the earlier 86-test result.
+The NAV-01 checker is read-only; its regression fixtures are synthetic.
+[The later RF-01 revisit](research/source-revisits/huey-rf01-002.json) records an
+actual changed public contract and a limited authorized manuscript-snapshot
+reading, without claiming inspection of the current complete corrected master.
