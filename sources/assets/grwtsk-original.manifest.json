@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "source_id": "HS-ASSET-01",
+  "path": "sources/assets/grwtsk-original.png",
+  "sha256": "e197a1263819ae2c03a9776ac16076de75618aa9af7778d4acb266c6d5774692",
+  "byte_length": 34918,
+  "source_filename": "grwtsk.png",
+  "source_role": "original_author_supplied_asset",
+  "capture_method": "Lossless copy of the mounted conversation attachment; compared with the source-handoff ZIP entry.",
+  "provenance_issue": "https://github.com/grwtsk/hs/issues/4",
+  "source_attachment_id_recorded_at_intake": "file_00000000d5ec81fdb43abd33341ed48f",
+  "inspection_basis": "File identity matches the issue-4 intake digest and the original attachment bytes available during this task.",
+  "measurements_path": "sources/assets/grwtsk-original.measurements.json",
+  "prescribed_resting_extent": {
+    "width": 144,
+    "height": 144,
+    "unit": "CSS px",
+    "kind": "author_instruction_not_intrinsic_size"
+  },
+  "rights": {
+    "scope": "Source preservation for Hs under the author's commission",
+    "license": "not_selected",
+    "human_issue": 6
+  },
+  "visual_decisions": {
+    "issue": 9,
+    "disagreement": "DG-06",
+    "outcome_from_this_archive": "none"
+  },
+  "revisit_issue": 75,
+  "identity_policy": "Preserve this original; a later supplied revision gets a new identity and an explicit delta, never a silent replacement.",
+  "authority_effect": "none"
+}

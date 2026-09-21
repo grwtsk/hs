@@ -1,0 +1,38 @@
+test_archive_size_bound (test_mark_asset.MarkArchiveTests.test_archive_size_bound) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_changed_report_rejected (test_mark_asset.MarkArchiveTests.test_changed_report_rejected) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_coedited_manifest_cannot_rebase_source (test_mark_asset.MarkArchiveTests.test_coedited_manifest_cannot_rebase_source) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_commands_read_only_report_reproducible (test_mark_asset.MarkArchiveTests.test_commands_read_only_report_reproducible) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_duplicate_and_nonfinite_json_rejected (test_mark_asset.MarkArchiveTests.test_duplicate_and_nonfinite_json_rejected) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_malformed_json_and_invalid_usage (test_mark_asset.MarkArchiveTests.test_malformed_json_and_invalid_usage) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_missing_source_fails_without_repair (test_mark_asset.MarkArchiveTests.test_missing_source_fails_without_repair) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_original_report_matches_intake (test_mark_asset.MarkArchiveTests.test_original_report_matches_intake) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_parent_escape_rejected (test_mark_asset.MarkArchiveTests.test_parent_escape_rejected) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_reencoding_same_image_is_not_original_bytes (test_mark_asset.MarkArchiveTests.test_reencoding_same_image_is_not_original_bytes) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_roles_rights_dimensions_and_authority_are_not_promoted (test_mark_asset.MarkArchiveTests.test_roles_rights_dimensions_and_authority_are_not_promoted) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_source_mutation (test_mark_asset.MarkArchiveTests.test_source_mutation) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_symlink_rejected (test_mark_asset.MarkArchiveTests.test_symlink_rejected) ... skipped 'Original PNG pending human upload under issue #4; not verified'
+test_absent_original_cannot_generate_report (test_mark_asset.PendingUploadTests.test_absent_original_cannot_generate_report) ... ok
+test_absent_original_check_fails_explicitly (test_mark_asset.PendingUploadTests.test_absent_original_check_fails_explicitly) ... ok
+test_commands_never_create_or_rewrite_files (test_mark_asset.PendingUploadTests.test_commands_never_create_or_rewrite_files) ... ok
+test_metadata_does_not_claim_binary_verification (test_mark_asset.PendingUploadTests.test_metadata_does_not_claim_binary_verification) ... ok
+test_reference_manifest_cannot_change_authority (test_mark_asset.PendingUploadTests.test_reference_manifest_cannot_change_authority) ... ok
+test_reference_report_cannot_be_rebased (test_mark_asset.PendingUploadTests.test_reference_report_cannot_be_rebased) ... ok
+test_all_five_filters_recover_exact_rgba (test_mark_asset.PngProfileTests.test_all_five_filters_recover_exact_rgba) ... ok
+test_concatenated_or_trailing_zlib (test_mark_asset.PngProfileTests.test_concatenated_or_trailing_zlib) ... ok
+test_corrupt_zlib (test_mark_asset.PngProfileTests.test_corrupt_zlib) ... ok
+test_crc_corruption (test_mark_asset.PngProfileTests.test_crc_corruption) ... ok
+test_dimension_limit_before_inflation (test_mark_asset.PngProfileTests.test_dimension_limit_before_inflation) ... ok
+test_input_limit (test_mark_asset.PngProfileTests.test_input_limit) ... ok
+test_nonempty_iend (test_mark_asset.PngProfileTests.test_nonempty_iend) ... ok
+test_paeth_tie_order_and_branches (test_mark_asset.PngProfileTests.test_paeth_tie_order_and_branches) ... ok
+test_short_or_expanded_stream (test_mark_asset.PngProfileTests.test_short_or_expanded_stream) ... ok
+test_truncation (test_mark_asset.PngProfileTests.test_truncation) ... ok
+test_unknown_filter (test_mark_asset.PngProfileTests.test_unknown_filter) ... ok
+test_unsupported_profile (test_mark_asset.PngProfileTests.test_unsupported_profile) ... ok
+test_wrong_order_or_extra_chunks (test_mark_asset.PngProfileTests.test_wrong_order_or_extra_chunks) ... ok
+test_wrong_signature (test_mark_asset.PngProfileTests.test_wrong_signature) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 5.270s
+
+OK (skipped=13)

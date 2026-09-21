@@ -15,3 +15,13 @@ owners. Preserving a source does not resolve them or accept the philosophy.
 of evolving sources, including the actual Huey manuscript when inspected through
 an authorized channel. The first record covers its public RF-01 contract only;
 it does not substitute for reading the manuscript or install a background watcher.
+
+[Original-mark source tools](sources/assets/README.md) and reference measurements
+are checked in. The PNG itself awaits the author's upload to
+`sources/assets/grwtsk-original.png` and the supplied commit reference. Missing
+source is explicit; metadata validation is not binary verification.
+
+[Transfer recovery](validation/transfer-recovery.md) corrects the prior connection
+and handoff diagnosis. No reconnection, external transfer script or additional
+credential is required by this repository. No PNG was supplied by the agent in
+this recovery.
