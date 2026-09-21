@@ -17,7 +17,7 @@ import sys
 from typing import Any
 import zlib
 
-ASSET = "sources/assets/grwtsk-original.png"
+ASSET = "sources/assets/grwtsk.png"
 MANIFEST = "sources/assets/grwtsk-original.manifest.json"
 REPORT = "sources/assets/grwtsk-original.measurements.json"
 EXPECTED_SHA256 = "e197a1263819ae2c03a9776ac16076de75618aa9af7778d4acb266c6d5774692"
@@ -215,7 +215,7 @@ def inspect(root: Path) -> dict[str, Any]:
     try:
         data = read_bounded(root, ASSET)
     except FileNotFoundError as exc:
-        raise MarkError("ORIGINAL_PNG_PENDING_HUMAN_UPLOAD") from exc
+        raise MarkError("ORIGINAL_PNG_MISSING") from exc
     return measurements(data)
 
 

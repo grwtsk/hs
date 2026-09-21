@@ -129,8 +129,8 @@ class PngProfileTests(unittest.TestCase):
 
 class MarkArchiveTests(unittest.TestCase):
     def setUp(self) -> None:
-        if not (ROOT / mark.ASSET).exists() and not (ROOT / mark.ASSET).is_symlink():
-            self.skipTest("Original PNG pending human upload under issue #4; not verified")
+        self.assertTrue((ROOT / mark.ASSET).is_file(),
+                        "Committed original grwtsk.png is required; missing data is not a skip")
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
         self.root = Path(temporary.name)
@@ -143,6 +143,18 @@ class MarkArchiveTests(unittest.TestCase):
         return subprocess.run([sys.executable, "-B", str(SCRIPT), *args,
                                "--root", str(self.root)], capture_output=True,
                               timeout=15, check=False)
+
+    def test_canonical_uploaded_filename(self) -> None:
+        self.assertEqual(mark.ASSET, "sources/assets/grwtsk.png")
+        self.assertEqual(mark.expected_manifest()["path"], mark.ASSET)
+        self.assertFalse((ROOT / "sources/assets/grwtsk-original.png").exists())
+
+    def test_no_silent_fallback_to_obsolete_filename(self) -> None:
+        (self.root / mark.ASSET).rename(self.root / "sources/assets/grwtsk-original.png")
+        result = self.cli("check")
+        self.assertEqual(result.returncode, 1)
+        self.assertEqual(result.stderr.strip(), b"ORIGINAL_PNG_MISSING")
+        self.assertFalse((self.root / mark.ASSET).exists())
 
     def test_original_report_matches_intake(self) -> None:
         result = mark.check(self.root)
@@ -219,7 +231,7 @@ class MarkArchiveTests(unittest.TestCase):
         result = self.cli('check')
         self.assertEqual(result.returncode, 1)
         self.assertEqual(result.stdout, b'')
-        self.assertIn(b'ORIGINAL_PNG_PENDING_HUMAN_UPLOAD', result.stderr)
+        self.assertIn(b'ORIGINAL_PNG_MISSING', result.stderr)
         self.assertFalse((self.root / mark.ASSET).exists())
 
     def test_commands_read_only_report_reproducible(self) -> None:
@@ -271,7 +283,7 @@ class PendingUploadTests(unittest.TestCase):
         result = self.cli("check")
         self.assertEqual(result.returncode, 1)
         self.assertEqual(result.stdout, b"")
-        self.assertEqual(result.stderr.strip(), b"ORIGINAL_PNG_PENDING_HUMAN_UPLOAD")
+        self.assertEqual(result.stderr.strip(), b"ORIGINAL_PNG_MISSING")
         self.assertFalse((self.root / mark.ASSET).exists())
 
     def test_absent_original_cannot_generate_report(self) -> None:

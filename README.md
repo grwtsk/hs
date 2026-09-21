@@ -17,9 +17,13 @@ an authorized channel. The first record covers its public RF-01 contract only;
 it does not substitute for reading the manuscript or install a background watcher.
 
 [Original-mark source tools](sources/assets/README.md) and reference measurements
-are checked in. The PNG itself awaits the author's upload to
-`sources/assets/grwtsk-original.png` and the supplied commit reference. Missing
-source is explicit; metadata validation is not binary verification.
+accompany the author's upload at `sources/assets/grwtsk.png` in commit
+`3c45aadb6688b1995a8b8f8a34ff29a9001383f9`. The original remains unchanged;
+only its text references are aligned with the author's filename. All 86 tests
+passed with no skips. The Git-object verification method and local
+execution limits are recorded in [upload-status.json](sources/assets/upload-status.json)
+and [the verification receipt](validation/upload-verification.json). Metadata
+validation alone is not binary verification.
 
 [Transfer recovery](validation/transfer-recovery.md) corrects the prior connection
 and handoff diagnosis. No reconnection, external transfer script or additional
