@@ -54,10 +54,11 @@ historical source. Reading the founding text alone is not sufficient to determin
 the current governing instructions. In particular, do not revert later composed
 intent-sity to a scalar by treating an earlier formulation as the final contract.
 
-The original image remains a separate custody task in
-[#4](https://github.com/grwtsk/hs/issues/4); this archive does not claim to contain
-its bytes. Assistant continuations are not included as author text. Rights and
-byline decisions remain in [#6](https://github.com/grwtsk/hs/issues/6).
+The original image is archived separately at [assets/grwtsk.png](assets/grwtsk.png),
+uploaded by the author in commit `3c45aadb6688b1995a8b8f8a34ff29a9001383f9`.
+[Asset custody and verification](assets/README.md) records the exact identity and
+checks for [#4](https://github.com/grwtsk/hs/issues/4). Assistant continuations are
+not author text. Rights and byline remain in [#6](https://github.com/grwtsk/hs/issues/6).
 
 The unresolved interpretation questions remain visible in
 [#66](https://github.com/grwtsk/hs/issues/66), with human owners in #6–#11 and #65.

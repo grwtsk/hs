@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "record_kind": "actual_local_verification_not_philosophical_acceptance",
+  "base_commit": "3c45aadb6688b1995a8b8f8a34ff29a9001383f9",
+  "author_upload": {
+    "path": "sources/assets/grwtsk.png",
+    "commit": "3c45aadb6688b1995a8b8f8a34ff29a9001383f9",
+    "byte_length": 34918,
+    "git_blob": "b481ca7006ba1bcb8821a75f0cf96c7d22c5f81c",
+    "original_sha256": "e197a1263819ae2c03a9776ac16076de75618aa9af7778d4acb266c6d5774692",
+    "git_object_identity_matches_local_bytes": true,
+    "independent_remote_byte_download": false,
+    "binary_modified": false
+  },
+  "checks": {
+    "founding_archive": "passed",
+    "refinement_archive": "passed",
+    "original_mark": "passed",
+    "both_passage_indexes": "byte_identical",
+    "measurements": "byte_identical",
+    "pillow_decoded_rgba": "matches",
+    "full_suite": {
+      "tests": 86,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "elapsed_seconds": 34.117,
+      "log": "validation/upload-full-suite.log",
+      "log_sha256": "c56164aa1b91dc357b1aeae719ab9ceef535f0137875c74c8b22c29c054189eb"
+    }
+  },
+  "environment": {
+    "python": "3.13.5",
+    "os": "Linux"
+  },
+  "input_git_blobs": {
+    "sources/conversation/01-founding-manifesto.index.tsv": "f00d13332946597dce05e9ca54a450b0d3c84030",
+    "sources/conversation/01-founding-manifesto.manifest.json": "e16ea3052c8be3b968daacee44c10664afaaf61a",
+    "sources/conversation/01-founding-manifesto.md": "e4dba96dd9fdc2effaa6ad045de3a46da0c11f63",
+    "sources/conversation/02-agent-proposals.json": "e78294fe3db530e851f6508766933761dd662d4f",
+    "sources/conversation/02-author-refinements.index.tsv": "ac222275526df684a60c42cf4424de11f311d218",
+    "sources/conversation/02-author-refinements.manifest.json": "969da5c6cfe297a0eea8dc58158a257fa85e03cb",
+    "sources/conversation/02-author-refinements.md": "ce4430f8ded77e69cfb76627e77544818dbb6087",
+    "sources/conversation/02-precedence.json": "dbdac63dacec8aed6689c939de69ff16ec45b35a",
+    "tests/test_founding_source.py": "51ed251e06fe868811df93ff519e1ec1c8e58732",
+    "tests/test_mark_asset.py": "b2c950e705737428eabf17fb7e65b070b9a88528",
+    "tests/test_refinements.py": "b3e659044cb9d4a0fb87c703b1fc5cbaa1e64643",
+    "tools/book/check_founding_source.py": "e85b3865a0ee5d52c5853dfa3464f999ebfb1aa3",
+    "tools/book/check_refinements.py": "6b4215d116d7e756c1dc4154283b7c0428e982cc",
+    "tools/book/inspect_mark.py": "a76d1d1505792893c3f82695ca7024cd9a41489f",
+    "sources/assets/grwtsk.png": "b481ca7006ba1bcb8821a75f0cf96c7d22c5f81c",
+    "sources/assets/grwtsk-original.manifest.json": "e8090578f954182b9e932868318c28e2383ed5b0",
+    "sources/assets/grwtsk-original.measurements.json": "19ccebe87025997cf39ee1f8ad268fb5c4cbcbbb"
+  },
+  "incomplete_attempts": [
+    {
+      "log_sha256": "7a380d576925afa10688c3e808b4becb9923fc29c7280148cb17f35eacc105e1",
+      "outcome": "outer_tool_cutoff_before_suite_completion_not_a_pass"
+    },
+    {
+      "log_sha256": "a300614a6df003e73d99dd497f234e0a2ee5b18e69730f7fc0b03f119cb50388",
+      "outcome": "outer_tool_cutoff_before_suite_completion_not_a_pass"
+    }
+  ],
+  "execution_limits": [
+    "Container Git transport failed with DNS resolution; no network clone is claimed.",
+    "Every repository test module and its input is present and bound to the inspected Git blobs. Unused unchanged documentation/logs need not be materialized to execute these tests.",
+    "The final bounded 180-second worker completed during this task; no background monitor or future work remains running.",
+    "No assertion was weakened to accommodate a failure; missing original is now a failure rather than a skip.",
+    "Git identity ties the local original to the committed blob. No separate remote-download SHA256 calculation is claimed."
+  ],
+  "authority_effect": "none",
+  "png_upload_performed_by_agent": false,
+  "next_task": "Hs issue 5: manuscript-only foundations, with source-revisit issue 75 and human gates unchanged."
+}

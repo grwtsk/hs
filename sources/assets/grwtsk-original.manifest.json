@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_id": "HS-ASSET-01",
-  "path": "sources/assets/grwtsk-original.png",
+  "path": "sources/assets/grwtsk.png",
   "sha256": "e197a1263819ae2c03a9776ac16076de75618aa9af7778d4acb266c6d5774692",
   "byte_length": 34918,
   "source_filename": "grwtsk.png",
