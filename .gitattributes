@@ -3,3 +3,5 @@
 sources/conversation/01-founding-manifesto.md -text whitespace=-blank-at-eol
 # Preserve the later issue-copy capture without newline conversion.
 sources/conversation/02-author-refinements.md -text
+# Preserve the later edit-navigation instruction as a separate source.
+sources/conversation/03-edit-navigation.md -text

@@ -29,3 +29,17 @@ validation alone is not binary verification.
 and handoff diagnosis. No reconnection, external transfer script or additional
 credential is required by this repository. No PNG was supplied by the agent in
 this recovery.
+
+## Current interaction direction: NAV-01
+
+[The latest author source](sources/conversation/03-edit-navigation.md) removes a
+separate intensity setting: the editable page, including link text, is the
+navigation input. Intensity is implicit in the change. Sphere clicks request
+discovery; hold/move/release keeps its stable geometric meanings.
+
+[The interpretation and precedence note](research/interaction/editing-navigation.md)
+connects `/apple`, `/apple/tree`, `/hello` and `/hola` to issues #79 and the revised
+book/interface briefs. [The influence research](research/mathematical-bridges/authorized-influence.md)
+keeps the proposed force/mass/1/(2*pi) relationship distinct from an implemented
+policy or a proved physical Yang-Mills result. Neither note implements the
+interface or accepts G1/G2/G3. Earlier source text and test receipts stay intact.
