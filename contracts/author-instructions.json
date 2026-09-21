@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "author_instructions",
+  "attribution": "Agent summaries of supplied instructions; originals remain separately attributed and unchanged.",
+  "items": [
+    {
+      "id": "NAV-01",
+      "source_refs": [
+        "S-NAV"
+      ],
+      "supersedes": [
+        "earlier required composer",
+        "earlier blanket no-discovery wording"
+      ],
+      "summary": "All presented text including link text is locally editable input. Intensity is implicit. Deliberate clicks discover; hold/move/release keeps stable geometry. Preserve permitted expression, source lineage, evidence and rights separately."
+    },
+    {
+      "id": "RIGOR-01",
+      "source_refs": [
+        "S-RIGOR74"
+      ],
+      "supersedes": [],
+      "summary": "Keep racism available for rigorous relational inquiry. Unknown motive does not erase a supported relation. No accusation/exoneration substitution, identity erasure, forced balance or compulsory disclosure. Courage includes warranted judgment and revision."
+    },
+    {
+      "id": "SOURCE-REVISIT",
+      "source_refs": [
+        "S-EVOLUTION75"
+      ],
+      "supersedes": [],
+      "summary": "Revisit evolving primary sources in authorized work and before dependent acceptance; record exact scope and recoverable delta. A correction issue is not the corrected manuscript. No background watcher."
+    },
+    {
+      "id": "BOOK-FIRST",
+      "source_refs": [
+        "S-COMMISSION"
+      ],
+      "supersedes": [],
+      "summary": "Complete the philosophical book and contracts before production interface adoption. Fourteen chapters and complete front/back matter remain commissioned, not completed."
+    }
+  ]
+}

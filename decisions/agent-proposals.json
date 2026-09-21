@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "kind": "agent_proposals",
+  "items": [
+    {
+      "id": "P-READERS-NOTE-01",
+      "origin": "agent",
+      "owner_issue": 6,
+      "path": "manuscript/front/readers-note.md",
+      "sha256": "ce02c22b76ce31740f5d629a0bbee5a07b57745dbae6301a9cc2435a96a4ec94",
+      "source_refs": [
+        "S-NAV",
+        "S-COMMISSION",
+        "S-RIGOR74"
+      ],
+      "scope": [
+        16
+      ],
+      "state": "provisional"
+    }
+  ]
+}

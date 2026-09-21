@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "kind": "disagreements",
+  "format_note": "JSON subset of YAML 1.2; parse strictly with the Python standard library.",
+  "items": [
+    {
+      "id": "DG-01",
+      "kind": "source_tension",
+      "question": "Who chooses what a faithful representation must preserve?",
+      "source_refs": [
+        "S-DG66"
+      ],
+      "owner_issue": 65,
+      "owner": "grwtsk",
+      "affected_issues": [
+        21,
+        24,
+        30,
+        34
+      ],
+      "behavior_scope": [
+        43,
+        46,
+        53
+      ],
+      "grounds": "A common minimum can protect against loss of claims and qualifications.",
+      "countergrounds": "A fixed minimum may omit a task-relevant or culturally situated distinction.",
+      "common_ground": "Preserve source identity, permitted expression and accountable evidence without invented agreement.",
+      "unknowns": "The scoped alternatives and their full objections still require a decision packet and human disposition.",
+      "state": "OPEN",
+      "disposition": null,
+      "retained_objections": [],
+      "reopen": "Revisit when the source, affected scope or grounds change; preserve prior versions.",
+      "disclosure": "public_reference_only",
+      "disposition_scope": []
+    },
+    {
+      "id": "DG-02",
+      "kind": "source_tension",
+      "question": "How do present participation, prior instructions and assistance interact?",
+      "source_refs": [
+        "S-DG66"
+      ],
+      "owner_issue": 8,
+      "owner": "grwtsk",
+      "affected_issues": [
+        17,
+        18,
+        20,
+        28
+      ],
+      "behavior_scope": [
+        40,
+        54
+      ],
+      "grounds": "Prior instructions can protect continuity across difficult encounters.",
+      "countergrounds": "Treating them as irrevocable may silence a present permitted correction.",
+      "common_ground": "Preserve source identity, permitted expression and accountable evidence without invented agreement.",
+      "unknowns": "The scoped alternatives and their full objections still require a decision packet and human disposition.",
+      "state": "OPEN",
+      "disposition": null,
+      "retained_objections": [],
+      "reopen": "Revisit when the source, affected scope or grounds change; preserve prior versions.",
+      "disclosure": "public_reference_only",
+      "disposition_scope": []
+    },
+    {
+      "id": "DG-03",
+      "kind": "source_tension",
+      "question": "How do reader editing and source-author withholding both retain agency?",
+      "source_refs": [
+        "S-DG66"
+      ],
+      "owner_issue": 6,
+      "owner": "grwtsk",
+      "affected_issues": [
+        16,
+        23,
+        24,
+        32
+      ],
+      "behavior_scope": [
+        47,
+        50,
+        53
+      ],
+      "grounds": "Local expression must remain possible without falsifying a source.",
+      "countergrounds": "Requiring source-author endorsement of every rendering can remove local freedom.",
+      "common_ground": "Preserve source identity, permitted expression and accountable evidence without invented agreement.",
+      "unknowns": "The scoped alternatives and their full objections still require a decision packet and human disposition.",
+      "state": "OPEN",
+      "disposition": null,
+      "retained_objections": [],
+      "reopen": "Revisit when the source, affected scope or grounds change; preserve prior versions.",
+      "disclosure": "public_reference_only",
+      "disposition_scope": []
+    },
+    {
+      "id": "DG-04",
+      "kind": "source_tension",
+      "question": "How do terminal proof colors coexist with inspectable grounds?",
+      "source_refs": [
+        "S-DG66"
+      ],
+      "owner_issue": 7,
+      "owner": "grwtsk",
+      "affected_issues": [
+        22,
+        24,
+        32
+      ],
+      "behavior_scope": [
+        46
+      ],
+      "grounds": "A terminal presentation can mark the end of one inquiry without visual clutter.",
+      "countergrounds": "Removing access to assumptions may let a proof label substitute for its scope.",
+      "common_ground": "Preserve source identity, permitted expression and accountable evidence without invented agreement.",
+      "unknowns": "The scoped alternatives and their full objections still require a decision packet and human disposition.",
+      "state": "OPEN",
+      "disposition": null,
+      "retained_objections": [],
+      "reopen": "Revisit when the source, affected scope or grounds change; preserve prior versions.",
+      "disclosure": "public_reference_only",
+      "disposition_scope": []
+    },
+    {
+      "id": "DG-05",
+      "kind": "source_tension",
+      "question": "What correspondence between contrast, admission and normalization is justified?",
+      "source_refs": [
+        "S-DG66"
+      ],
+      "owner_issue": 10,
+      "owner": "grwtsk",
+      "affected_issues": [
+        21,
+        27,
+        34
+      ],
+      "behavior_scope": [
+        44,
+        52
+      ],
+      "grounds": "A shared principle may make boundaries coherent across an encounter.",
+      "countergrounds": "Equal numbers do not identify differently defined quantities or establish consent.",
+      "common_ground": "Preserve source identity, permitted expression and accountable evidence without invented agreement.",
+      "unknowns": "The scoped alternatives and their full objections still require a decision packet and human disposition.",
+      "state": "OPEN",
+      "disposition": null,
+      "retained_objections": [],
+      "reopen": "Revisit when the source, affected scope or grounds change; preserve prior versions.",
+      "disclosure": "public_reference_only",
+      "disposition_scope": []
+    },
+    {
+      "id": "DG-06",
+      "kind": "source_tension",
+      "question": "How should redaction, source palette and accessible distinction coexist?",
+      "source_refs": [
+        "S-DG66"
+      ],
+      "owner_issue": 9,
+      "owner": "grwtsk",
+      "affected_issues": [
+        22,
+        33,
+        34
+      ],
+      "behavior_scope": [
+        44,
+        45
+      ],
+      "grounds": "A visible permitted extent can avoid presenting withheld material as nonexistent.",
+      "countergrounds": "Even extent or existence can be protected; a purely visual cue may exclude readers.",
+      "common_ground": "Preserve source identity, permitted expression and accountable evidence without invented agreement.",
+      "unknowns": "The scoped alternatives and their full objections still require a decision packet and human disposition.",
+      "state": "OPEN",
+      "disposition": null,
+      "retained_objections": [],
+      "reopen": "Revisit when the source, affected scope or grounds change; preserve prior versions.",
+      "disclosure": "public_reference_only",
+      "disposition_scope": []
+    },
+    {
+      "id": "DG-07",
+      "kind": "source_tension",
+      "question": "How do drafts, source versions, revisions and replica retirement differ?",
+      "source_refs": [
+        "S-DG66"
+      ],
+      "owner_issue": 11,
+      "owner": "grwtsk",
+      "affected_issues": [
+        20,
+        24,
+        25,
+        29
+      ],
+      "behavior_scope": [
+        48,
+        49
+      ],
+      "grounds": "Version preservation makes correction and evidence transport inspectable.",
+      "countergrounds": "Indefinite retention can conflict with deletion, privacy or bounded resources.",
+      "common_ground": "Preserve source identity, permitted expression and accountable evidence without invented agreement.",
+      "unknowns": "The scoped alternatives and their full objections still require a decision packet and human disposition.",
+      "state": "OPEN",
+      "disposition": null,
+      "retained_objections": [],
+      "reopen": "Revisit when the source, affected scope or grounds change; preserve prior versions.",
+      "disclosure": "public_reference_only",
+      "disposition_scope": []
+    },
+    {
+      "id": "DG-08",
+      "kind": "source_tension",
+      "question": "How can an argument resolve while differences of premise or value remain?",
+      "source_refs": [
+        "S-DG66"
+      ],
+      "owner_issue": 7,
+      "owner": "grwtsk",
+      "affected_issues": [
+        26,
+        30,
+        32
+      ],
+      "behavior_scope": [
+        55
+      ],
+      "grounds": "A scoped shared commitment can enable action without waiting for unanimity.",
+      "countergrounds": "Calling the commitment proof can erase the actual disagreement and its grounds.",
+      "common_ground": "Preserve source identity, permitted expression and accountable evidence without invented agreement.",
+      "unknowns": "The scoped alternatives and their full objections still require a decision packet and human disposition.",
+      "state": "OPEN",
+      "disposition": null,
+      "retained_objections": [],
+      "reopen": "Revisit when the source, affected scope or grounds change; preserve prior versions.",
+      "disclosure": "public_reference_only",
+      "disposition_scope": []
+    },
+    {
+      "id": "DG-09",
+      "kind": "source_tension",
+      "question": "How does manufacturer capability differ from legitimate human authority?",
+      "source_refs": [
+        "S-DG66"
+      ],
+      "owner_issue": 11,
+      "owner": "grwtsk",
+      "affected_issues": [
+        18,
+        29,
+        30
+      ],
+      "behavior_scope": [
+        57
+      ],
+      "grounds": "Hardware and platforms determine real available capabilities and constraints.",
+      "countergrounds": "Descriptive power is not a grant to infer consent or overrule the person.",
+      "common_ground": "Preserve source identity, permitted expression and accountable evidence without invented agreement.",
+      "unknowns": "The scoped alternatives and their full objections still require a decision packet and human disposition.",
+      "state": "OPEN",
+      "disposition": null,
+      "retained_objections": [],
+      "reopen": "Revisit when the source, affected scope or grounds change; preserve prior versions.",
+      "disclosure": "public_reference_only",
+      "disposition_scope": []
+    },
+    {
+      "id": "DG-10",
+      "kind": "source_tension",
+      "question": "What is the smallest adequate ark-only orientation mechanism?",
+      "source_refs": [
+        "S-DG66"
+      ],
+      "owner_issue": 10,
+      "owner": "grwtsk",
+      "affected_issues": [
+        23,
+        27,
+        34
+      ],
+      "behavior_scope": [
+        52
+      ],
+      "grounds": "Exact routing can avoid unnecessary inference, expense and training.",
+      "countergrounds": "Ambiguous language can require resources beyond a deterministic lookup; scope must be explicit.",
+      "common_ground": "Preserve source identity, permitted expression and accountable evidence without invented agreement.",
+      "unknowns": "The scoped alternatives and their full objections still require a decision packet and human disposition.",
+      "state": "OPEN",
+      "disposition": null,
+      "retained_objections": [],
+      "reopen": "Revisit when the source, affected scope or grounds change; preserve prior versions.",
+      "disclosure": "public_reference_only",
+      "disposition_scope": []
+    },
+    {
+      "id": "DG-11",
+      "kind": "source_tension",
+      "question": "How can bounded independent work avoid repetitive mechanical approval burden?",
+      "source_refs": [
+        "S-DG66"
+      ],
+      "owner_issue": 6,
+      "owner": "grwtsk",
+      "affected_issues": [
+        18,
+        29,
+        63
+      ],
+      "behavior_scope": [
+        39,
+        56
+      ],
+      "grounds": "Defined reversible repair classes can reduce redundant demands on the human.",
+      "countergrounds": "A vague repair class can silently expand meaning, rights or release authority.",
+      "common_ground": "Preserve source identity, permitted expression and accountable evidence without invented agreement.",
+      "unknowns": "The scoped alternatives and their full objections still require a decision packet and human disposition.",
+      "state": "OPEN",
+      "disposition": null,
+      "retained_objections": [],
+      "reopen": "Revisit when the source, affected scope or grounds change; preserve prior versions.",
+      "disclosure": "public_reference_only",
+      "disposition_scope": []
+    },
+    {
+      "id": "DG-12",
+      "kind": "source_tension",
+      "question": "Which internal arguments may be adopted, compared or disclosed?",
+      "source_refs": [
+        "S-DG66"
+      ],
+      "owner_issue": 6,
+      "owner": "grwtsk",
+      "affected_issues": [
+        12,
+        15,
+        16,
+        31
+      ],
+      "behavior_scope": [
+        53
+      ],
+      "grounds": "Explicit lineage makes the work answerable to its actual source.",
+      "countergrounds": "Access alone cannot authorize quotation, private-source transfer or invented endorsement.",
+      "common_ground": "Preserve source identity, permitted expression and accountable evidence without invented agreement.",
+      "unknowns": "The scoped alternatives and their full objections still require a decision packet and human disposition.",
+      "state": "OPEN",
+      "disposition": null,
+      "retained_objections": [],
+      "reopen": "Revisit when the source, affected scope or grounds change; preserve prior versions.",
+      "disclosure": "public_reference_only",
+      "disposition_scope": []
+    }
+  ]
+}

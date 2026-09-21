@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "kind": "phase_scope",
+  "phase": "manuscript",
+  "requested_scope": [],
+  "gate_dispositions": {
+    "36": null,
+    "38": null,
+    "61": null
+  },
+  "interface_artifacts": []
+}

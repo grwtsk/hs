@@ -1,0 +1,67 @@
+# Bounded editorial validation, not G1/G2/G3 acceptance or a source watcher.
+name: Foundation records complete replay
+"on":
+  push:
+    branches: [foundation/5-manuscript-records]
+permissions:
+  contents: read
+concurrency:
+  group: hs-foundation-records
+  cancel-in-progress: false
+jobs:
+  editorial-checks:
+    if: github.repository == 'grwtsk/hs' && github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Exact checkout and unchanged originals
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          git merge-base --is-ancestor 361c0f5185224ac18b2b55c21cfdf62cf7e15970 HEAD
+          git diff --exit-code 361c0f5185224ac18b2b55c21cfdf62cf7e15970 HEAD -- sources research/interaction research/mathematical-bridges research/source-revisits
+          printf 'INPUT_HEAD=%s\nINPUT_TREE=%s\n' "$(git rev-parse HEAD)" "$(git rev-parse HEAD^{tree})"
+          python3 --version
+          git --version
+      - name: All source custody and foundation records
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -B tools/book/check_founding_source.py check
+          python3 -B tools/book/check_refinements.py check
+          python3 -B tools/book/inspect_mark.py check
+          python3 -B tools/book/check_edit_navigation.py check
+          python3 -B tools/book/check_foundations.py check
+      - name: Complete test suite without hidden skips
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -B - <<'PY'
+          from pathlib import Path
+          import unittest
+          expected = {'test_founding_source.py','test_refinements.py','test_mark_asset.py','test_edit_navigation.py','test_foundations.py'}
+          assert {p.name for p in Path('tests').glob('test_*.py')} == expected
+          print('DISCOVERED_TESTS=' + str(unittest.defaultTestLoader.discover('tests').countTestCases()))
+          PY
+          python3 -B -m unittest discover -s tests -v 2>&1 | tee "$RUNNER_TEMP/hs-foundation-tests.log"
+          if grep -Eq 'OK \(skipped=|skipped=[1-9]' "$RUNNER_TEMP/hs-foundation-tests.log"; then exit 1; fi
+      - name: Finite research examples
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m pip install --disable-pip-version-check --no-cache-dir --no-compile --only-binary=:all: --target "$RUNNER_TEMP/hs-foundation-math" sympy==1.14.0 mpmath==1.3.0
+          PYTHONPATH="$RUNNER_TEMP/hs-foundation-math" python3 -B tools/book/check_influence_model.py
+      - name: Whitespace and read-only postcondition
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+          git diff --check 361c0f5185224ac18b2b55c21cfdf62cf7e15970 HEAD
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
